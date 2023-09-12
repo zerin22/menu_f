@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+    <!--/ google fonts -->
+  
+    <!-- css -->
+    <link href="dist/output.css" rel="stylesheet">
+    <!--/ css -->
+  
+    <title>Sign Up</title>
+  
+  </head>
+
+<body>
+    <main>
+        <div class="container mx-auto max-w-[1440px] h-[100vh]">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 p-3.5 h-full">
+                <div class="h-full">
+                    <div class="flex justify-center md:justify-start items-center">
+                        <a href="index.html"><img class="md:pt-10 md:pl-16" src="./assets/img/loginlogo.png" alt="Logo"></a>
+                      </div>
+                    <div class="h-full mx-auto mt-4 max-w-[420px] p-2.5" id="bgPosition">
+                        <form action="">
+                            <p class="text-fs_18 text-c_54 font-[400]  mb-3.5">Welcome to
+                                Menufy!</p>
+                            <h2 class="text-fs_34 text-c_33  mb-7">Sign Up</h2>
+                            <input type="text"
+                                class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-6"
+                                placeholder="Business Name" style="background-image: url('../assets/img/business.png')">
+
+                            <input type="text"
+                                class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-6"
+                                placeholder="Username" style="background-image: url('../assets/img/nameICon.png');">
+
+                            <input type="email"
+                                class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-6"
+                                placeholder="Email Address" style="background-image: url('../assets/img/email.png');">
+                                
+                            <input type="password"
+                                class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-6"
+                                placeholder="Password" style="background-image: url('../assets/img/lock.png');">
+
+                            <input type="password"
+                                class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-6"
+                                placeholder="Repeat Password" style="background-image: url('../assets/img/lock.png');">
+
+
+                            <button type="submit" class="w-full py-[16px] whitespace-nowrap"><a href="verifyEmail.html">Sign Up</a></button>
+                           
+                        </form>
+
+                        <p class="text-c_85 text-fs_18 mt-8 font-medium  text-center">
+                            Already have an account?  <a href="index.html" class="text-c_54 font-bold">Log In</a>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="h-full">
+                    <img class="w-full h-full rounded-3xl" src="./assets/img/loginBg.png" alt="Log In">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+
+</html>

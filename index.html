@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!--/ google fonts -->
+
+  <!-- css -->
+  <link href="dist/output.css" rel="stylesheet">
+  <!--/ css -->
+
+  <title>Log In</title>
+
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="container mx-auto max-w-[1440px] h-[100vh]">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 p-3.5 h-full">
+          <div class="h-full">
+            <div class="flex justify-center md:justify-start items-center">
+              <a href="index.html"><img class="md:pt-10 md:pl-16" src="./assets/img/loginlogo.png" alt="Logo"></a>
+            </div>
+            <div class="mx-auto mt-[30px] md:mt-[126px] max-w-[420px] p-2.5" id="bgPosition">
+              <div class="text-center md:text-start mb-7 md:mb-[50px]">
+                <h2 class="text-fs_34 text-c_33 mb-[10px]">Log In</h2>
+              </div>
+
+              <form action="">
+                <input type="text"
+                  class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-6"
+                  style="background-image: url('./assets/img/nameICon.png');" placeholder="Username">
+
+                <input type="password"
+                  class="w-full border border-c_ED border-solid rounded-r_11 p-p_60 mb-7"
+                  placeholder="Password" style="background-image: url('./assets/img/lock.png');">
+
+
+                <div class="flex flex-col md:flex-row justify-between items-center gap-3 mb-[60px]">
+                  <div class="flex justify-center items-center gap-1">
+                    <input type="checkbox" checked="checked" class="h-[14px] w-[14px] accent-c_54" />
+                    <span class="text-fs_16 text-c_85">Remember me</span>
+                  </div>
+                  <div>
+                    <a href="resetPassword.html" class="text-fs_16 text-c_54">Forgot
+                      Password?</a>
+                  </div>
+                </div>
+
+                <div class="text-center">
+                  <button type="submit" class="w-full py-[16px] mb-7 whitespace-nowrap">Log In</button>
+                </div>
+              </form>
+
+              <p class="text-c_85 text-fs_18 text-center">New to Menufy? <a href="signUp.html"
+                  class="text-c_54 font-bold">Sign Up!</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="h-full">
+            <img class="w-full h-full rounded-3xl" src="./assets/img/loginBg.png" alt="Log In">
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

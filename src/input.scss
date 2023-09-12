@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-center {
+  text-align: -webkit-center;
+}
+.side-nav .border-line {
+  visibility: hidden;
+}
+
+.side-nav li:hover .border-line {
+  visibility: visible;
+}
+
+.side-nav li:hover svg {
+  fill: #006B54;
+}
+
+.side-nav li:hover .nav-icon svg {
+  stroke: #006B54;
+}
+
+.side-nav li:hover .nav-title {
+  color: #006B54;
+}
+
+
+a {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+
+:focus-visible {
+  outline: none;
+}
+
+
+
+.modal-box {
+  max-width: 1145px !important;
+  width: 100% !important;
+  padding: 80px;
+}
+
+#menuname {
+  height: 50px;
+  background-image: url(../assets/img/menuname.svg);
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+  border-radius: 11px;
+  padding-left: 40px;
+  border: 1px solid #EDEDED;
+}
+
+#menudescription {
+  background-image: url(../assets/img/describemenu.svg);
+  background-repeat: no-repeat;
+  background-position: top 21px left 10px;
+  border-radius: 11px;
+  border: 1px solid #EDEDED;
+  padding: 20px 40px 20px;
+}
+
+#existingitem,
+#pricedes,
+#price {
+  width: 100%;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+  border-radius: 11px;
+  padding-left: 40px;
+  border: 1px solid #EDEDED;
+}
+
+#pricedes {
+  background-image: url(../assets/img/price-des.svg);
+}
+
+#price {
+  background-image: url(../assets/img/price.svg);
+}
+
+#existingitem {
+  background-image: url(../assets/img/search-icon.svg);
+  padding-left: 50px;
+}
+
+.menu-items-wrapper .items-wrapper button {
+  padding: 20px !important;
+}
+
+@media(min-width:768px) {
+  header nav .nav-brand {
+    width: 11.66%;
+  }
+}
+
+.menu-items-wrapper .menu-items-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+#bgPosition a:hover {
+  text-decoration: underline;
+}
+
+#bgPosition input, .profileForm input , .profileForm textarea, .profileForm select {
+  background-position: left 4% center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.18px;
+  color: #747985;
+}
+
+#bg_config::placeholder, .profileForm input::placeholder, .profileForm textarea::placeholder {
+  color: var(--text-light, #747985);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.18px;
+}
+
+#bgPosition button {
+  border-radius: 8px;
+  background: var(--Primary-color, #006B54);
+  color: var(--text-white, #FFF);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.36px;
+  transition: 0.4s ease-in-out all;
+}
+
+#bgPosition button:hover {
+  opacity: .9;
+}
+
+.innerBox {
+  background: #FDFDFD;
+  margin-top: 45px;
+  margin-left: 46px;
+}
+
+.infoBar {
+  border-radius: 16px 16px 0 0 !important;
+}
+
+.infoBar .active {
+  color: #FFF;
+  background-color: #006B54;
+}
+
+
+.pformBg {
+  background-position: left 4% top 5%;
+  background-size: inherit;
+}
+
+.profileForm span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.12px;
+}
+
+.mediaProfile img{
+  width: 157px;
+  height: 165px;
+}
